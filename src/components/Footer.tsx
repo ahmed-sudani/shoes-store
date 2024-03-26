@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div className='bg-gray-800 text-white text-center flex flex-col items-center gap-5 p-10'>
-        <img className='invert' src='/public/images/logo.svg' alt='' />
+        <img className='invert' src='/images/logo.svg' alt='' />
         <p className='text-xs xl:w-1/2'>
           Discover the perfect blend of style and performance with StrideMax
           Pro. Elevate your footwear game with our cutting-edge shoes designed

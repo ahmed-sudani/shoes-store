@@ -42,7 +42,7 @@ const CartEditComponent = ({ product }: { product: ProductType }) => {
         onClick={handleOnAddToCartClick}
         className='flex gap-5 font-bold xl:w-32 md:w-40 items-center flex-grow justify-center rounded-xl hover:opacity-80 py-5 bg-red-500 text-white'
       >
-        <img className='invert' src='/public/images/icon-cart.svg' alt='' />
+        <img className='invert' src='/images/icon-cart.svg' alt='' />
         <span>
           {cart.count && cart.count !== productCount
             ? 'Update Cart'

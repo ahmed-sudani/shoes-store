@@ -35,7 +35,7 @@ export default function Home() {
             <LazyLoadImage
               effect='blur'
               className='object-contain'
-              src='/public/images/derrick-payton-jHXyDTQgt0A-unsplash-removebg-preview.png'
+              src='/images/derrick-payton-jHXyDTQgt0A-unsplash-removebg-preview.png'
               alt=''
             />
           </div>
@@ -184,7 +184,7 @@ export default function Home() {
             <div className='flex flex-col gap-2 items-center md:w-96 rounded-xl overflow-hidden bg-white shadow p-4 cursor-default hover:shadow-md'>
               <img
                 className='w-20'
-                src='/public/images/local_shipping_FILL0_wght300_GRAD0_opsz24.svg'
+                src='/images/local_shipping_FILL0_wght300_GRAD0_opsz24.svg'
                 alt=''
               />
               <h3 className='text-center text-lg font-bold'>Fast Shipping</h3>
@@ -199,7 +199,7 @@ export default function Home() {
             <div className='flex flex-col gap-2 items-center md:w-96 rounded-xl overflow-hidden bg-white shadow p-4 cursor-default hover:shadow-md'>
               <img
                 className='w-20'
-                src='/public/images/support_agent_FILL0_wght300_GRAD0_opsz24.svg'
+                src='/images/support_agent_FILL0_wght300_GRAD0_opsz24.svg'
                 alt=''
               />
               <h3 className='text-center text-lg font-bold'>
@@ -217,7 +217,7 @@ export default function Home() {
             <div className='flex flex-col gap-2 items-center md:w-96 rounded-xl overflow-hidden bg-white shadow p-4 cursor-default hover:shadow-md'>
               <img
                 className='w-20'
-                src='/public/images/currency_exchange_FILL0_wght300_GRAD0_opsz24.svg'
+                src='/images/currency_exchange_FILL0_wght300_GRAD0_opsz24.svg'
                 alt=''
               />
               <h3 className='text-center text-lg font-bold'>
@@ -236,7 +236,7 @@ export default function Home() {
             <div className='flex flex-col gap-2 items-center md:w-96 rounded-xl overflow-hidden bg-white shadow p-4 cursor-default hover:shadow-md'>
               <img
                 className='w-20'
-                src='/public/images/lock_FILL0_wght300_GRAD0_opsz24.svg'
+                src='/images/lock_FILL0_wght300_GRAD0_opsz24.svg'
                 alt=''
               />
               <h3 className='text-center text-lg font-bold'>Secure Checkout</h3>
@@ -253,7 +253,7 @@ export default function Home() {
             <div className='flex flex-col gap-2 items-center md:w-96 rounded-xl overflow-hidden bg-white shadow p-4 cursor-default hover:shadow-md'>
               <img
                 className='w-20'
-                src='/public/images/editor_choice_FILL0_wght300_GRAD0_opsz24.svg'
+                src='/images/editor_choice_FILL0_wght300_GRAD0_opsz24.svg'
                 alt=''
               />
               <h3 className='text-center text-lg font-bold'>Reward Program</h3>
