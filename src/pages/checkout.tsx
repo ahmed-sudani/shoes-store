@@ -9,7 +9,7 @@ import formateCurrency from '../util/formateCurrency'
 
 export default function Checkout() {
   const cart = useRecoilValue(cartSate)
-  const [shippingCost, setShippingCost] = useState(5)
+  const [shippingCost, _setShippingCost] = useState(5)
   const [billingAddressIsShippingAddress, setBillingAddressIsShippingAddress] =
     useState(true)
 
