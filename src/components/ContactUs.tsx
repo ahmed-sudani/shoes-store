@@ -1,3 +1,4 @@
+import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 export default function ContactUs() {
@@ -44,7 +45,15 @@ export default function ContactUs() {
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                   url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
                 />
-                <Marker position={[51.505, -0.09]} />
+                <Marker
+                  icon={
+                    new L.Icon({
+                      iconUrl: 'https://www.svgrepo.com/show/476893/marker.svg',
+                      iconSize: new L.Point(60, 75),
+                    })
+                  }
+                  position={[51.505, -0.09]}
+                />
               </MapContainer>
             </div>
           </div>
